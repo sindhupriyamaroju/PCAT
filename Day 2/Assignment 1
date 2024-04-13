@@ -1,1 +1,24 @@
+Assignment 1:
 
+Pseudocode and Flowchart for Sorting Algorithm - Write pseudocode and create a flowchart for a bubble sort algorithm.
+Provide a brief explaination of how the algorithm works and a simple array of integers to demonstrate a dry run 
+of your algorithm
+
+start
+read array arr
+length =n
+for i in range i to n
+  for j in range i to n-i-1
+     if arr[j]>arr[j+1]
+       swap arr[j] and arr[j+1]
+end for i
+  end for j
+end
+
+dry run:
+arr=[8,6,15,7,11]
+arr[j]=8 arr[j+1]=6 swap as 8>6 [6,8,15,7,11]
+arr[j]=6 arr[j+1]=15 no swap as 6<15 [6,8,15,7,11]
+arr[j]=15 arr[j+1]=7 swap as 15>7 [6,8,7,15,11]
+arr[j]=15 arr[j+1]=11 swap as 15>11 [6,8,7,11,15]
+sorted array is [6,8,7,11,15]
