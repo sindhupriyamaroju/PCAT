@@ -1,0 +1,15 @@
+Develop a number guessing game where the program randomly generates a number between 1 and 100. The user has to guess 
+the number, and the program provides feedback (higher, lower, or correct) after each guess. Use a loop to allow the 
+user to keep guessing until they correctly guess the number.
+
+int i,n,guess;
+{
+for(int i=0;i<n;i++)
+		printf("Enter");
+			if(n==guess)
+				printf("congrats");
+			else if(guess>n)
+				printf("guessed greater number");
+			else
+				printf("guessed lesser number");
+}
