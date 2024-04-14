@@ -1,0 +1,16 @@
+Develop a program that checks whether a given string is a palindrome or not. A palindrome is a word, phrase, number, 
+or other sequence of characters that reads the same backward as forward (e.g., "radar" or "madam"). 
+Prompt the user to enter a string, then use a loop to compare characters from the beginning and end of the string to 
+determine if it's a palindrome.
+
+int x,y=0,r;
+{
+printf("enter")
+while(x!=0)
+{
+  r=x%10;
+  y=y*10+r;
+  x=x/10;
+}
+printf("x");
+}
