@@ -1,0 +1,18 @@
+Develop a program that assesses whether an employee is eligible for a promotion based on the following criteria:
+Must have worked for the company for at least 5 years.
+Must have a performance rating of "excellent."
+Must have completed at least one advanced training program.
+Prompt the user to input their years of service, performance rating, and training status, then use complex logical 
+expressions to determine and output whether they are eligible for promotion.
+
+int years of service,advanced training status;
+char performance rating;
+{
+printf("enter");
+ {
+if(years of service>=5 && performance rating=excellent && advanced training status>=1)
+  printf("you are eligible for promotion");
+else
+   print("you are not eligible for promotion");
+ }
+}
