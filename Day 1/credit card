@@ -1,0 +1,18 @@
+Design a program that evaluates whether a person is approved for a credit card based on the following criteria:
+Minimum credit score requirement: 700
+Maximum debt-to-income ratio: 30%
+No recent bankruptcies (within the last 5 years)
+Prompt the user to input their credit score, debt amount, income amount, and bankruptcy status, then use complex logical
+expressions to determine and output whether they are approved for the credit card
+
+int credit score,debt amount,income amount;
+char last 5 years bankruptcy status;
+    {
+      printf("enter");
+      {
+if(credit score>=700 && debt amount >=30% && last 5 years bankruptcy status=nill)
+      printf("you are approved for credit card");
+else
+      printf("you are not approved for credit card");
+      }
+    } 
