@@ -1,0 +1,21 @@
+Create a BMI (Body Mass Index) calculator program. The program should ask the user for their weight (in kilograms) and 
+height (in meters). Then, calculate the BMI using the formula BMI = weight / (height * height). Finally, classify the
+BMI into categories according to the following criteria:
+Underweight: BMI < 18.5
+Normal weight: 18.5 <= BMI < 25
+Overweight: 25 <= BMI < 30
+Obese: BMI >= 30
+
+int weight,height,BMI;
+{
+printf("enter weight and height");
+     BMI = weight / (height * height);
+if(BMI<18.5)
+  printf("Underweight");
+else if(18.5<=BMI<25)
+  printf("Normal weight");
+else if(25<=BMI<30)
+  printf("Overweight");
+else if(BMI>=30)
+  printf("obese");
+}
