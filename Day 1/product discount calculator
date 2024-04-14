@@ -1,0 +1,20 @@
+Write a program that calculates the discount amount for a product based on the following criteria:
+If the product price is over $100 and the customer is a premium member, they get a 20% discount.
+If the product price is over $100 and the customer is not a premium member, they get a 10% discount.
+If the product price is $100 or less, there is no discount.
+Prompt the user to input the product price and their premium membership status, then use complex logical expressions 
+to calculate and output the discount amount.
+
+int price;
+char premium member;
+{
+printf("enter")
+ {
+if(price>$100 && premium member)
+  printf("you got 20% discount on price");
+elseif(price>$100 && not premium member)
+  printf("you got 10% discount on price");
+else if(price is <= $100)
+  printf("you got no discount on price");
+  }
+}
