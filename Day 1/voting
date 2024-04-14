@@ -1,0 +1,15 @@
+Create a program that determines whether a person is eligible to vote in an election based on the following criteria:
+Age must be 18 or above.
+Must be a citizen of the country.
+Prompt the user to input their age, citizenship status (yes/no), and felony status (yes/no), and then use 
+  complex logical expressions to determine and output whether they are eligible to vote.
+
+int age;
+char country,felony status;
+  {
+  printf("enter age and country");
+    if(age>=18 && country=India && felony status=yes)
+      printf("eligible to vote");
+    else
+      printf("Not eligible to vote");
+    }
