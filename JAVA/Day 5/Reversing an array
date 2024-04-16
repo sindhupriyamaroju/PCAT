@@ -1,1 +1,18 @@
+ Arrays - Declaration, Initialization, and Usage
+Create a program that declares an array of integers, initializes it with consecutive numbers, and prints the array in reverse order.
 
+package com;
+
+public class ArrayReverse
+{
+	public static void main(String[] args)
+{
+		// TODO Auto-generated method stub
+      int arr[]= {12,5,6,8,9,0};
+      for(int i=arr.length-1;i>=0;i--)
+      {
+    	  System.out.println(arr[i]);
+      }
+	}
+
+}
