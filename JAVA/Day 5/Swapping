@@ -1,1 +1,16 @@
+Data Types/Variables
+Write a program that declares two integer variables, swaps their values without using a third variable, and prints the result.
 
+package com;
+public class swapping
+{
+public static void main(String[] args)
+{
+int a=10;
+int b=20;
+a=a+b;
+b=a-b;
+a=a-b;
+System.out.println("After swapping:"+a+","+b);
+}
+}
