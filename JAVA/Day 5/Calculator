@@ -1,1 +1,43 @@
+Operators
+Create a program that simulates a simple calculator using command-line arguments to perform and print the result of addition, subtraction, multiplication, and division..
+
+package com;
+import java.util.Scanner;
+public class operators
+{
+	public static void main(String[] args)
+{
+		int n1=Integer.valueOf(args[0]);
+		int n2=Integer.valueOf(args[1]);
+		
+		int sum=find_sum(n1,n2);
+		  System.out.println(:sum");
+		int sub=find_sub(n1,n2);
+		  System.out.println("sub");
+		int mult=find_mul(n1,n2);
+		  System.out.println(mul);
+		int div=find_div(n1,n2);
+		  System.out.println(div);
+		}
+	public static int find_sum(int n1,int n2)
+  {
+		int sum=n1+n2;
+		return sum;
+	}
+	public static int find_sub(int n1,int n2)
+ {
+		int sub=n1-n2;
+		return sub;		
+}
+	public static int find_mul(int n1,int n2
+{
+		int mul=n1*n2;
+		return mul;	
+}
+	public static float find_div(int n1,int n2)
+{
+		float div=num1/num2;
+		return div;
+}
+}
 
