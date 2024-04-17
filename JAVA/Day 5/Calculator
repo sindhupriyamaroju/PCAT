@@ -15,7 +15,7 @@ public class calculator
 		  System.out.println("sum");
 		int sub=findsub(n1,n2);
 		  System.out.println("sub");
-		int mult=findmul(n1,n2);
+		int mul=findmul(n1,n2);
 		  System.out.println(mul);
 		int div=finddiv(n1,n2);
 		  System.out.println(div);
