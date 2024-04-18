@@ -1,1 +1,32 @@
+Array Sorting and Searching
+Implement a function called BruteForceSort that sorts an array using the brute force approach. Use this function to sort an array created with InitializeArray.
 
+public class Bruteforce 
+{
+public static void main(String[] args)
+{
+int arr[]= {5,8,2,6,11,9,15};
+bruteForce(a,a.length);
+	System.out.println("sorted array");
+for(int i=0;i<a.length;i++)
+{
+	System.out.println(a[i]);
+}
+}
+private static void bruteForce(int[] a, int length)
+{
+	for(int i=0;i<a.length;i++) 
+{
+	for(int j=i+1;j<a.length;j++)
+{
+int temp=0;
+if(arr[i]>arr[j])
+{
+temp=arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+}
+}
+}
+}
+}
