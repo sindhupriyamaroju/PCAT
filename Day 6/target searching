@@ -1,3 +1,7 @@
+Array Sorting and Searching
+Write a function named PerformLinearSearch that searches for a specific element in an array and returns the index of the element if found or -1 if not found.
+
+
 import java.util.Scanner;
 
 public class Search
@@ -16,11 +20,11 @@ for(int i=0;i<n;i++)
 arr[i]=scanner.nextInt();
 if(arr[i]==target)
 {
- System.out.println("element found);
+ System.out.println("element found"+i);
 }
 else 
 {
-System.out.println("element not found");
+System.out.println("element not found"+(-1));
 }
 }
 }
